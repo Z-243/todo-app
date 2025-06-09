@@ -171,7 +171,6 @@
         let new_inner_html = "";
         for (let i = 0; i < todo_list.length; i++) {
           const todo = todo_list[i];
-          // button with onclick ='deleteTodo() event function'
           new_inner_html += `<div class="todoItem">
             <p>${todo}</p>
             <div class="actionsContainer">
@@ -190,7 +189,7 @@
 
       function addTodo() {
         let current_todo = todoInput.value;
-        //if current to do is empty nothing happens
+        //if current to do is empty nothing happens on add
         if (!current_todo) {
           return;
         }
@@ -222,7 +221,7 @@
 
       function editTodo(index) {
         let current_todo = todo_list[index];
-        // the current todo value should be present in input
+        // the current todo value appears in input
         todoInput.value = current_todo;
         //delete the currnt value
         deleteTodo(index);
