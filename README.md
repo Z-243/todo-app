@@ -52,7 +52,7 @@ function saveData() {
 
 1. Clone the repo:
    ```bash
-   git clone https://github.com/your-username/todo-app.git
+   git clone https://github.com/Z-243/todo-app.git
    cd todo-app
    ```
 
