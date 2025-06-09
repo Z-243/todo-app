@@ -91,3 +91,7 @@ function saveData() {
 ## 📌 Note
 
 This project does not require a backend or external libraries. All data is stored in the browser.
+
+## 🚀 Live Demo
+
+👉 [Todo App](https://simple2-todo-app.netlify.app/)
